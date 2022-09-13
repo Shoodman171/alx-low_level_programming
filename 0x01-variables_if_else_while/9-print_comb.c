@@ -2,8 +2,8 @@
 /**
  * main - prints all possible combinations of single digits
  *
- * Return: 0 on Success
- */ 
+ * Return: 0 on Succes
+ */
 int main(void)
 {
 	int i = '0';
