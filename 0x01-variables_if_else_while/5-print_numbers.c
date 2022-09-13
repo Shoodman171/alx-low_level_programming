@@ -6,7 +6,7 @@
  *
  */
 
- int maiin(void)
+int main(void)
 {
 	int i;
 
