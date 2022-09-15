@@ -2,7 +2,7 @@
 /**
  * print_numbers - prints the digits 1-9
  */
-void print_numbers(void)
+void print_numbers(void)
 {
 	int i = 0;
 
