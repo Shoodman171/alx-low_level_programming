@@ -8,7 +8,6 @@ void print_triangle(int size)vvvvv
 {
 	int hash, index;
 
-
 	if (size > 0)
 	{
 		for (hash = 1; hash <= size; hash++)
