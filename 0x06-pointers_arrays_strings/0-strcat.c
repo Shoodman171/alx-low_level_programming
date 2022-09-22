@@ -1,21 +1,32 @@
+
 #include "main.h"
 
 /**
- * _strcmp - Compares pointers to two strings.
- * @s1: A pointer to the first string to be compared.
- * @s2: A pointer to the second string to be compared.
+ * _strcat - Concatenates two strings
+ * @dest: Destination string
+ * @src: Source string
  *
- * Return: If str1 < str2, the negative difference
- *         If str1 == str2, 0.
- *         If str1 > str2, the positive difference
+ * Return: A pointer to the resulting string dest
  */
-int _strcmp(char *s1, char *s2)
+
+char *_strcat(char *dest, char *src)
+
 {
-	while (*s1 && *s2 && *s1 == *s2)
+
+	int i;
+
+	int j;
+
+	for (i = 0; dest[i] != '\0'; i++)
+	{}
+
+	for (j = 0; src[j]; j++, i++)
 	{
-		s1++;
-		s2++;
+
+		dest[i] = src[j];
 	}
 
-	return (*s1 - *s2);
+	dest[i] = '\0';
+
+return (dest);
 }
